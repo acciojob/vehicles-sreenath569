@@ -19,7 +19,7 @@ public class F1 extends Car {
 
     @Override
     public String getName() {
-        return name;
+        return this.name;
     }
 
     @Override
@@ -29,7 +29,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentSpeed() {
-        return currentSpeed;
+        return this.currentSpeed;
     }
 
     @Override
@@ -39,7 +39,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentDirection() {
-        return currentDirection;
+        return this.currentDirection;
     }
 
     @Override
@@ -49,7 +49,7 @@ public class F1 extends Car {
 
     @Override
     public int getWheels() {
-        return wheels;
+        return this.wheels;
     }
 
     @Override
@@ -59,7 +59,7 @@ public class F1 extends Car {
 
     @Override
     public String getType() {
-        return type;
+        return this.type;
     }
 
     @Override
@@ -69,7 +69,7 @@ public class F1 extends Car {
 
     @Override
     public int getDoors() {
-        return doors;
+        return this.doors;
     }
 
     @Override
@@ -79,7 +79,7 @@ public class F1 extends Car {
 
     @Override
     public int getGears() {
-        return gears;
+        return this.gears;
     }
 
     @Override
@@ -89,7 +89,7 @@ public class F1 extends Car {
 
     @Override
     public boolean isManual() {
-        return isManual;
+        return this.isManual;
     }
 
     @Override
@@ -99,7 +99,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentGear() {
-        return currentGear;
+        return this.currentGear;
     }
 
     @Override
@@ -109,7 +109,7 @@ public class F1 extends Car {
 
     @Override
     public int getSeats() {
-        return seats;
+        return this.seats;
     }
 
     @Override
