@@ -12,111 +12,12 @@ public class F1 extends Car {
     private boolean isManual;
     private int currentGear;
     private int seats;
+
     public F1(String name, boolean isManual) {
         //Use arbitrary values for parameters which are not mentioned
         super(name, 4, 4, 6, isManual, "family", 4);
     }
 
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public int getCurrentSpeed() {
-        return currentSpeed;
-    }
-
-    @Override
-    public void setCurrentSpeed(int currentSpeed) {
-        this.currentSpeed = currentSpeed;
-    }
-
-    @Override
-    public int getCurrentDirection() {
-        return currentDirection;
-    }
-
-    @Override
-    public void setCurrentDirection(int currentDirection) {
-        this.currentDirection = currentDirection;
-    }
-
-    @Override
-    public int getWheels() {
-        return wheels;
-    }
-
-    @Override
-    public void setWheels(int wheels) {
-        this.wheels = wheels;
-    }
-
-    @Override
-    public String getType() {
-        return type;
-    }
-
-    @Override
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    @Override
-    public int getDoors() {
-        return doors;
-    }
-
-    @Override
-    public void setDoors(int doors) {
-        this.doors = doors;
-    }
-
-    @Override
-    public int getGears() {
-        return gears;
-    }
-
-    @Override
-    public void setGears(int gears) {
-        this.gears = gears;
-    }
-
-    @Override
-    public boolean isManual() {
-        return isManual;
-    }
-
-    @Override
-    public void setManual(boolean manual) {
-        isManual = manual;
-    }
-
-    @Override
-    public int getCurrentGear() {
-        return currentGear;
-    }
-
-    @Override
-    public void setCurrentGear(int currentGear) {
-        this.currentGear = currentGear;
-    }
-
-    @Override
-    public int getSeats() {
-        return seats;
-    }
-
-    @Override
-    public void setSeats(int seats) {
-        this.seats = seats;
-    }
 
     public void accelerate(int rate){
         int newSpeed = getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
