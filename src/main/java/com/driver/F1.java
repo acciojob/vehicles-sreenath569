@@ -17,9 +17,10 @@ public class F1 extends Car {
         super(name, 4, 4, 6, isManual, "family", 4);
     }
 
+
     @Override
     public String getName() {
-        return this.name;
+        return name;
     }
 
     @Override
@@ -29,7 +30,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentSpeed() {
-        return this.currentSpeed;
+        return currentSpeed;
     }
 
     @Override
@@ -39,7 +40,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentDirection() {
-        return this.currentDirection;
+        return currentDirection;
     }
 
     @Override
@@ -49,7 +50,7 @@ public class F1 extends Car {
 
     @Override
     public int getWheels() {
-        return this.wheels;
+        return wheels;
     }
 
     @Override
@@ -59,7 +60,7 @@ public class F1 extends Car {
 
     @Override
     public String getType() {
-        return this.type;
+        return type;
     }
 
     @Override
@@ -69,7 +70,7 @@ public class F1 extends Car {
 
     @Override
     public int getDoors() {
-        return this.doors;
+        return doors;
     }
 
     @Override
@@ -79,7 +80,7 @@ public class F1 extends Car {
 
     @Override
     public int getGears() {
-        return this.gears;
+        return gears;
     }
 
     @Override
@@ -89,7 +90,7 @@ public class F1 extends Car {
 
     @Override
     public boolean isManual() {
-        return this.isManual;
+        return isManual;
     }
 
     @Override
@@ -99,7 +100,7 @@ public class F1 extends Car {
 
     @Override
     public int getCurrentGear() {
-        return this.currentGear;
+        return currentGear;
     }
 
     @Override
@@ -109,7 +110,7 @@ public class F1 extends Car {
 
     @Override
     public int getSeats() {
-        return this.seats;
+        return seats;
     }
 
     @Override
