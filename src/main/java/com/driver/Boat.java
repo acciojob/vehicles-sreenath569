@@ -10,7 +10,6 @@ public class Boat implements WaterVehicle{
         this.capacity = capacity;
     }
 
-    @Override
     public String getVehicleName() {
         return name;
     }
@@ -19,7 +18,6 @@ public class Boat implements WaterVehicle{
         this.name = name;
     }
 
-    @Override
     public int getVehicleCapacity() {
         return capacity;
     }
