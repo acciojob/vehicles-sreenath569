@@ -1,6 +1,9 @@
 package com.driver;
 
 public class Car extends Vehicle {
+    private String name;
+    private int currentSpeed;
+    private int currentDirection;
     private int wheels;
     private String type;
     private int doors;
@@ -30,6 +33,36 @@ public class Car extends Vehicle {
     public void changeSpeed(int newSpeed, int newDirection){
         move(newSpeed, newDirection);
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
+    @Override
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
+
+    @Override
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
+    @Override
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
     }
 
     public int getWheels() {

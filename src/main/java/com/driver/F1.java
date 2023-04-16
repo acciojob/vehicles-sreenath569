@@ -3,6 +3,8 @@ package com.driver;
 public class F1 extends Car {
 
     private String name;
+    private int currentSpeed;
+    private int currentDirection;
     private int wheels;
     private String type;
     private int doors;
@@ -23,6 +25,26 @@ public class F1 extends Car {
     @Override
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
+    @Override
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
+
+    @Override
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
+    @Override
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
     }
 
     @Override

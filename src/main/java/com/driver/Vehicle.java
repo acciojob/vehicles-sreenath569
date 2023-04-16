@@ -13,6 +13,7 @@ public class Vehicle {
     }
 
     public void steer(int direction){
+
         //direction is in degrees, add it to the current direction
         setCurrentDirection(direction);
         //this.currentDirection = direction;
